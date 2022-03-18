@@ -15,11 +15,8 @@ class MANYSUMS {
     }
 
     static void code(Scanner z) {
-        int N = z.nextInt();
-        int S = (N*(N+1))/2;
-        if(S%2==0)
-            System.out.println(N);
-        else
-            System.out.println(N-1);
+        int L = z.nextInt();
+        int R = z.nextInt();
+        System.out.println(2*R-2*L+1);
     }
 }
